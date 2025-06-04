@@ -40,3 +40,12 @@ a {
     color-scheme: dark;
   }
 }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1c7ed6; 
+}
+
+* {
+  scrollbar-width: 50px;
+  scrollbar-color: #4da8ff #002b5c;
+}

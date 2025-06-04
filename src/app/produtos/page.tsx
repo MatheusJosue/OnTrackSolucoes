@@ -1,6 +1,6 @@
 "use client";
 
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
 import tijImage from "@/assets/images/TIJJ.png";

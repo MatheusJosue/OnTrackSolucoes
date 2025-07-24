@@ -113,30 +113,30 @@ export default function Footer() {
               <li className="d-flex align-items-center gap-2">
                 <MapPin size={16} />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=R.+Silva+Jardim,+3517,+São+José+do+Rio+Preto"
+                  href="https://www.google.com/maps/search/?api=1&query=Rua+Sete+-+Santa+Maria,+201,+Contagem,+MG"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white text-decoration-none"
                 >
-                  R. Silva Jardim, 3517 - SP
+                  Rua Sete - Santa Maria, 201 - Contagem, MG
                 </a>
               </li>
               <li className="d-flex align-items-center gap-2">
                 <Mail size={16} />
                 <a
-                  href="mailto:contato@suzukicodificacoes.com.br"
+                  href="mailto:Ontrackcodificacoes@outlook.com "
                   className="text-white text-decoration-none"
                 >
-                  contato@suzukicodificacoes.com.br
+                  Ontrackcodificacoes@outlook.com
                 </a>
               </li>
               <li className="d-flex align-items-center gap-2">
                 <Phone size={16} />
                 <a
-                  href="tel:+5517988163121"
+                  href="tel:+31999538990"
                   className="text-white text-decoration-none"
                 >
-                  (17) 98816-3121
+                  (31) 9 9953-8990
                 </a>
               </li>
             </ul>

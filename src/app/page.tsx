@@ -16,19 +16,20 @@ import {
 import tijImage from "@/assets/images/TIJJ.png";
 import cijImage from "@/assets/images/CIJ.png";
 import datadora from "@/assets/images/datadora.png";
-import cliente1 from "@/assets/images/cliente1.png";
-import cliente2 from "@/assets/images/cliente2.png";
-import cliente3 from "@/assets/images/cliente3.png";
-import cliente4 from "@/assets/images/cliente4.png";
-import cliente5 from "@/assets/images/cliente5.png";
-import cliente6 from "@/assets/images/cliente6.png";
-import cliente7 from "@/assets/images/cliente7.png";
-import cliente8 from "@/assets/images/cliente8.png";
+import datadoraSemiNova from "@/assets/images/datadoraseminovas.png";
+import cliente1 from "@/assets/images/cliente1.jpg";
+import cliente2 from "@/assets/images/cliente2.jpg";
+import cliente3 from "@/assets/images/cliente3.jpg";
+import cliente4 from "@/assets/images/cliente4.jpg";
+import cliente5 from "@/assets/images/cliente5.jpg";
+import cliente6 from "@/assets/images/cliente6.jpg";
+import cliente7 from "@/assets/images/cliente7.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import TypewriterText from "@/components/TypewriterText/TypewriterText";
+import videojet from "@/assets/images/videojetcomfundo.png";
 
 export default function Home() {
   const logos = [
@@ -39,7 +40,6 @@ export default function Home() {
     cliente5,
     cliente6,
     cliente7,
-    cliente8,
   ];
 
   return (
@@ -178,21 +178,29 @@ export default function Home() {
           <Row className="justify-content-center gy-4">
             {[
               {
-                title: "TIJ MINI SK12",
+                title: "CIJ - Novas",
                 description:
-                  "Impressoras térmicas de alta resolução ideais para pequenas linhas.",
+                  "Impressoras de jato contínuo para ambientes industriais de alta demanda.",
+
                 image: tijImage,
                 link: "/produtos/tij-mini-sk12",
               },
               {
-                title: "CIJ SK2000 PLUS",
+                title: "TIJ - Novas",
                 description:
-                  "Impressoras de jato contínuo para ambientes industriais de alta demanda.",
-                image: cijImage,
+                  "Impressoras térmicas de alta resolução ideais para pequena e médias produção.",
+                image: datadoraSemiNova,
                 link: "/produtos/cij-sk2000-plus",
               },
+              {
+                title: "CIJ - Seminovas",
+                description:
+                  "Impressoras de jato contínuo para ambientes industriais de alta demanda.",
+                image: videojet,
+                link: "/produtos/tij-mini-sk12",
+              },
             ].map((product, idx) => (
-              <Col key={idx} md={6} lg={4}>
+              <Col key={idx} md={6} lg={3}>
                 <div className={styles.productCard}>
                   <div className={styles.productImageWrapper}>
                     <Image
@@ -266,19 +274,17 @@ export default function Home() {
               <SwiperSlide key={idx}>
                 <div
                   style={{
-                    width: "150px",
-                    height: "60px",
+                    width: "250px",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    margin: "0 auto",
                   }}
                 >
                   <Image
                     src={logo}
                     alt={`Logo ${idx + 1}`}
-                    width={150}
-                    height={60}
+                    width={250}
+                    height={100}
                     style={{ objectFit: "contain" }}
                   />
                 </div>

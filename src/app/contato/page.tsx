@@ -22,7 +22,7 @@ export default function FaleConosco() {
     e.preventDefault();
 
     const corpoEmail = `Nome: ${form.nome}\nE-mail: ${form.email}\nTelefone: ${form.telefone}\n\nMensagem:\n${form.mensagem}`;
-    const mailto = `mailto:contato@ontrack.com?subject=Contato via site&body=${encodeURIComponent(
+    const mailto = `mailto:Ontrackcodificacoes@outlook.com?subject=Contato via site&body=${encodeURIComponent(
       corpoEmail
     )}`;
     window.location.href = mailto;
@@ -42,8 +42,8 @@ export default function FaleConosco() {
                 <MapPin className="text-primary mb-2" size={32} />
                 <h6 className="fw-bold">Nosso Endereço</h6>
                 <p className="text-muted small mb-0">
-                  R. Silva Jardim, 3517 – Parque Industrial,
-                  <br /> São José do Rio Preto - SP, 15014-050
+                  Rua Sete - Santa Maria, 201
+                  <br /> Contagem, MG, 32240-227
                 </p>
               </Card.Body>
             </Card>
@@ -55,7 +55,7 @@ export default function FaleConosco() {
                 <Mail className="text-primary mb-2" size={32} />
                 <h6 className="fw-bold">E-mail</h6>
                 <p className="text-muted small mb-0">
-                  contato@suzukicodificacoes.com.br
+                  Ontrackcodificacoes@outlook.com
                 </p>
               </Card.Body>
             </Card>
@@ -66,7 +66,7 @@ export default function FaleConosco() {
               <Card.Body>
                 <Phone className="text-primary mb-2" size={32} />
                 <h6 className="fw-bold">Telefone</h6>
-                <p className="text-muted small mb-0">(17) 98816-3121</p>
+                <p className="text-muted small mb-0">(31) 99953-8990</p>
               </Card.Body>
             </Card>
           </Col>
@@ -76,7 +76,7 @@ export default function FaleConosco() {
           <Col md={6}>
             <iframe
               title="Mapa"
-              src="https://www.google.com/maps?q=R.+Silva+Jardim,+3517+-+Parque+Industrial,+São+José+do+Rio+Preto+-+SP,+15014-050&output=embed"
+              src="https://www.google.com/maps?q=Rua+Sete+-+Santa+Maria,+201,+Contagem,+MG&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}

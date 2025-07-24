@@ -12,7 +12,7 @@ import bestCode from "@/assets/images/bestCode.png";
 export default function Consumiveis() {
   const produtos = [
     {
-      title: "Video Jet",
+      title: "VideoJet",
       image: videojet,
       description:
         "Tintas e solventes 100% compatíveis com a linha Video Jet. Qualidade garantida.",
@@ -89,7 +89,7 @@ export default function Consumiveis() {
             <Button
               variant="outline-primary"
               size="lg"
-              href="mailto:contato@ontrack.com"
+              href="mailto:Ontrackcodificacoes@outlook.com"
               className="d-flex align-items-center gap-2 px-4 py-2"
             >
               <FaEnvelope /> Entrar em contato via E-mail
@@ -97,7 +97,7 @@ export default function Consumiveis() {
             <Button
               variant="success"
               size="lg"
-              href="https://wa.me/5517999999999"
+              href="https://wa.me/5531999538990"
               target="_blank"
               className="d-flex align-items-center gap-2 px-4 py-2"
             >

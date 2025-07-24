@@ -2,9 +2,7 @@
 
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Image from "next/image";
-import Link from "next/link";
 import tijImage from "@/assets/images/TIJJ.png";
-import cijImage from "@/assets/images/CIJ.png";
 import styles from "./page.module.css";
 import datadoraSemiNova from "@/assets/images/datadoraseminovas.png";
 import videojet from "@/assets/images/videojetcomfundo.png";
@@ -39,7 +37,7 @@ const produtos = [
 
 export default function ProdutosPage() {
   return (
-    
+
     <main className="bg-light py-5">
       <Container>
         <div className="text-center mb-5">

@@ -14,7 +14,6 @@ import {
   Wrench,
 } from "lucide-react";
 import tijImage from "@/assets/images/TIJJ.png";
-import cijImage from "@/assets/images/CIJ.png";
 import datadora from "@/assets/images/datadora.png";
 import datadoraSemiNova from "@/assets/images/datadoraseminovas.png";
 import cliente1 from "@/assets/images/cliente1.jpg";

@@ -210,9 +210,6 @@ export default function Home() {
                     <div className={styles.productOverlay}>
                       <h5 className="fw-bold mb-3">{product.title}</h5>
                       <p className="mb-3">{product.description}</p>
-                      <Link href={product.link}>
-                        <Button variant="primary">Ver modelos</Button>
-                      </Link>
                     </div>
                   </div>
                 </div>
